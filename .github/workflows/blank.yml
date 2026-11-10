@@ -1,10 +1,9 @@
 name: hello world
 on: workflow_dispatch
 jobs:
-  
-  test:
+  deploy:
     runs-on: uubuntu-latest
     steps:
-      - name: Test Phase
-        run: echo "Running Test Cases"
+      - name: Deploy the app
+        run: echo "Deploying the app"
 
